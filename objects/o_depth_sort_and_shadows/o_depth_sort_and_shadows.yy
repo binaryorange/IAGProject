@@ -2,7 +2,7 @@
     "id": "f3ab8fc7-1faa-4922-bde0-31f46a0c8868",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_depth_sort",
+    "name": "o_depth_sort_and_shadows",
     "eventList": [
         {
             "id": "ca1e0438-f172-406d-ac97-36be2ab3bb63",
