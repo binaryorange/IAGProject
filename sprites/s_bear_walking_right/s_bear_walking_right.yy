@@ -2,7 +2,7 @@
     "id": "006ac0f5-604e-49da-8082-e3c03beb2d8b",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_bear_walking",
+    "name": "s_bear_walking_right",
     "For3D": false,
     "HTile": false,
     "VTile": false,

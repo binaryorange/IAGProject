@@ -34,7 +34,7 @@
             "Key": "006ac0f5-604e-49da-8082-e3c03beb2d8b",
             "Value": {
                 "id": "34871151-2ff1-413e-aee6-edf248d04ba1",
-                "resourcePath": "sprites\\s_bear_walking\\s_bear_walking.yy",
+                "resourcePath": "sprites\\s_bear_walking_right\\s_bear_walking_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -348,6 +348,14 @@
                 "id": "35228a88-0902-4c70-be31-0cdc9ed82806",
                 "resourcePath": "views\\920b56ad-9252-4cea-86fe-4c98013e7482.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a2b90732-85ea-4548-930e-5a39f158b7a7",
+            "Value": {
+                "id": "345a7d0f-d7b6-4157-8823-2a9ec4fc28cd",
+                "resourcePath": "sprites\\s_bear_walking_left\\s_bear_walking_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

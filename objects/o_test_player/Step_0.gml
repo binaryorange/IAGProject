@@ -39,8 +39,12 @@ vsp -= vsp_decimal;
 x += hsp;
 y += vsp;
 
-// update image speed
-image_speed = hsp
+// update image speed and sprite index
+if hsp < 0 sprite_index = s_bear_walking_left;
+if hsp > 0 sprite_index = s_bear_walking_right;
+
+if hsp != 0 or vsp != 0 image_speed = max_speed;
+else image_speed = 0;
 
 
 
