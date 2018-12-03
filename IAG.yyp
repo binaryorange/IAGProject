@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "006ac0f5-604e-49da-8082-e3c03beb2d8b",
+            "Value": {
+                "id": "34871151-2ff1-413e-aee6-edf248d04ba1",
+                "resourcePath": "sprites\\s_bear_walking\\s_bear_walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "018a6cbf-b892-4fe0-89b0-f3c0170b8ce8",
             "Value": {
                 "id": "39c09d71-faa9-446e-bfac-49b3104f3605",
