@@ -1,2 +1,5 @@
 /// @description Draw debug text
-// draw_text(x, y-10, "HSP " + string(hsp));
+// get display properties
+var w = view_get_wport(view_camera[0]);
+var h = view_get_hport(view_camera[0]);
+draw_text(w-w+1, h-h+1, "View: " + string(w) + " | " + string(h));

@@ -4,8 +4,8 @@
 // draw shadows
 with(o_parent_depth_and_shadows){
 	// control angle of shadows
-	var skewX = 7;
-	var skewY = 15;
+	var skewX = 4;
+	var skewY = 16;
 	var width = sprite_width/2;
 	var alpha = .5;
 	
