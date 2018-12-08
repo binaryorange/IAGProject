@@ -8,7 +8,7 @@ max_speed = 2;
 
 
 // friction variables
-drag = .25;
+drag = .15;
 
 // image speed
 

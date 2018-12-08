@@ -2,30 +2,35 @@
 
 
 // draw shadows
+
 with(o_parent_depth_and_shadows){
-	// control angle of shadows
-	var skewX = 4;
-	var skewY = 16;
-	var width = sprite_width/2;
-	var alpha = .5;
+	// only draw shadows if object is visible
+	if visible {
+		// control angle of shadows
+		var skewX = 4;
+		var skewY = 16;
+		var width = sprite_width/2;
+		var alpha = .5;
 	
-	// use fog to set color of shadows
-	gpu_set_fog(true, c_black, 0, 1);
+		// use fog to set color of shadows
+		gpu_set_fog(true, c_black, 0, 1);
 	
-	// draw the shadows
-	draw_sprite_pos(sprite_index, image_index, 
-					x-width-skewX,
-					y-skewY,
-					x+width-skewX,
-					y-skewY,
-					x+width,
-					y,
-					x-width,
-					y,
-					alpha);
+		// draw the shadows
+		draw_sprite_pos(sprite_index, image_index, 
+						x-width-skewX,
+						y-skewY,
+						x+width-skewX,
+						y-skewY,
+						x+width,
+						y,
+						x-width,
+						y,
+						alpha);
 	
-	// set fog to false and white
-	gpu_set_fog(false, c_white, 0, 0);	
+		// set fog to false and white
+		gpu_set_fog(false, c_white, 0, 0);	
+	}
+
 }
 
 
@@ -58,7 +63,8 @@ if (ds_exists(depth_sort_grid, ds_type_grid)) {
 		var instID = depth_sort_grid[# 0, yy];	
 		
 		with (instID) {
-			draw_self();
+			// only draw the instance if it is visible
+			if instID.visible draw_self();
 		}
 		
 		yy++;
@@ -67,3 +73,4 @@ if (ds_exists(depth_sort_grid, ds_type_grid)) {
 	// clear grid
 	ds_grid_clear(depth_sort_grid, 0);
 }
+
