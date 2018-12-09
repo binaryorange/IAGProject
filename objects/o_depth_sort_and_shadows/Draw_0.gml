@@ -7,8 +7,8 @@ with(o_parent_depth_and_shadows){
 	// only draw shadows if object is visible
 	if visible {
 		// control angle of shadows
-		var skewX = 4;
-		var skewY = 16;
+		var skewX = 8;
+		var skewY = 8;
 		var width = sprite_width/2;
 		var alpha = .5;
 	
