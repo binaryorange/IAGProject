@@ -29,3 +29,4 @@ switch (dir_facing) {
 }
 
 draw_text(round(1), round(h-h+96), "FACING: " + string(facing_text));
+draw_text(round(1), round(h-h+128), "LEFT/UP: " + string(left) + "/" + string(up));

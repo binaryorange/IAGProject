@@ -10,6 +10,10 @@ moving = false;
 // friction variables
 drag = .4;
 
+// input variables
+left = 0;
+up = 0;
+
 // FACING enum
 enum facing {
 	LEFT,

@@ -1,3 +1,7 @@
+// update hsp and vsp to left/up
+hsp += (left * walk_spd);
+vsp += (up * walk_spd);
+
 // drag
 hsp = lerp(hsp, 0, drag);
 vsp = lerp(vsp, 0, drag);
