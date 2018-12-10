@@ -4,13 +4,8 @@
     "mvc": "1.1",
     "name": "46cbd87f-06e8-4ffc-81c7-60ade35e236b",
     "children": [
-        "1d6cbcc5-2545-43bd-ba25-e43fd0a543db",
-        "f8b510d4-f354-45f7-bb2f-c75f6787d683",
-        "13b93d79-16a6-4957-b21d-1c77d519d095",
-        "8e9f43dc-d7f1-49e6-bfb4-19ddc79d4c9a",
-        "1425a545-1200-4f6b-97f4-55e7c1ca4982",
-        "718a87e0-90a5-4d7e-8fc2-05704d0893bf",
-        "6f6dcff5-5c5d-40fc-b4e0-320a095e1ade"
+        "0e91688e-b52d-48ef-bc2a-1b6179362ec1",
+        "683f84f2-36a9-4737-8a7d-70203bfeb5a3"
     ],
     "filterType": "GMSprite",
     "folderName": "TopDown Sprites",

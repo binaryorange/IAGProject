@@ -12,9 +12,9 @@ drag = .4;
 
 // input variables
 left = 0;
-up = 0;
+right = 0;
 
-// FACING enum
+// facing variables
 enum facing {
 	LEFT,
 	RIGHT,
@@ -22,9 +22,10 @@ enum facing {
 	DOWN
 }
 
-// facing variables
 dir_facing = facing.DOWN; // initialize to facing down
-// STATES enum
+
+
+// state variables
 enum player_states {
 	IDLE,
 	MOVE,
@@ -33,12 +34,10 @@ enum player_states {
 	BLOCK
 }
 
-// state variables
 state = player_states.IDLE; // initialize to IDLE
 
-// input variables
-left = 0;
-right = 0;
-up = 0;
-down = 0;
+// debug variables
+debug_mode_on = true; // set to TRUE for now
+
+
 
