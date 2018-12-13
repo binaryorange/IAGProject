@@ -8,7 +8,7 @@
         "314a8735-a030-4506-a870-dff57dc580eb"
     ],
     "filterType": "GMObject",
-    "folderName": "Shadows and Depth Sorting",
+    "folderName": "Master Parent",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -7,7 +7,7 @@ get_input();
 update_movements();
 
 // check collisions
-check_solid_collision(o_parent_depth_and_shadows);
+check_solid_collision(o_master_parent);
 
 // check facing direction
 update_facing_direction();
