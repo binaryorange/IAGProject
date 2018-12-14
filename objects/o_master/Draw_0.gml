@@ -1,4 +1,4 @@
-/// @desc Call Effect Scripts that Affect ALL Objects
+/// @desc Draw Shadows and do Y Sorting
 
 
 // draw shadows for objects
