@@ -1,6 +1,14 @@
 // update hsp and vsp to left/up
-hsp += (left * walk_spd);
-vsp += (up * walk_spd);
+
+if (left != 0 or up != 0) {
+	moveDir = point_direction(0, 0, left, up);
+	
+	moveX = lengthdir_x(walk_spd, moveDir);
+	moveY = lengthdir_y(walk_spd, moveDir);
+	
+	hsp += moveX;
+	vsp += moveY;
+}
 
 // drag
 hsp = lerp(hsp, 0, drag);
